@@ -1,0 +1,6 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/Users/garvc07/Desktop/mac_core.jar"
+    ]
+}
