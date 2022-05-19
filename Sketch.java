@@ -56,7 +56,7 @@ public class Sketch extends PApplet {
      if (keyPressed) {
       if (keyCode == UP) {
          // Speed decreases
-        circleY[i] -= 2;
+        circleY[i] -= 2.5;
       }
       else if (keyCode == DOWN) {
          // Speed increases 
@@ -65,7 +65,7 @@ public class Sketch extends PApplet {
     }
     
       // Default speed for snow to fall
-      circleY[i]+=2;
+      circleY[i] += 3;
 
       // Edge detection for the bottom
       if (circleY[i] > height+(25/2)) {
